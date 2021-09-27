@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'django.contrib.sessions',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     # 'django.contrib.sessions',
@@ -90,7 +91,7 @@ DATABASES = {
         'NAME': 'storefront',
         'HOST': '127.0.0.1',
         'USER': 'root',
-        'PASSWORD':'Sanalsanal@12'
+        'PASSWORD': 'Sanalsanal@12'
     }
 }
 
